@@ -18,11 +18,10 @@ With the advancement of technology, using Self-driving cars for package delivery
 
 ### Hypothesis 1 :-
 There is a relation between the number of workers and the time it takes to load and unload the packages
-> More number of workers will result in lesser loading/ Unloading time >
-Less number of workers will take more loading/ Unloading time
+> More number of workers will result in lesser loading/ Unloading time , Less number of workers will take more loading/ Unloading time
 
 ### Hypothesis 2:-
-When the Extreme weather count for a specefic region increases, the difference in the success rates for package delivery increases for the proposed model 
+> When the Extreme weather count for a specefic region increases, the difference in the success rates for package delivery increases for the proposed model 
 
 # Computing the cost model
 Since we have suggested two ideas in order to mitigate the human life risk on bad weather days, it is extremely essential to check if implementing the model is actually financially feasible. Therefore we calculated the cost including the production and maintenance cost for both the models which basically tells us which region we can apply our model into. If a region as 'x' number of bad days then is it feasible for them to apply the model or will go in a loss? The constructed cost model essentially answers this question
