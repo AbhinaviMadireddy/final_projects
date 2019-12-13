@@ -18,8 +18,8 @@ With the advancement of technology, using Self-driving cars for package delivery
 
 ### Hypothesis 1 :-
 There is a relation between the number of workers and the time it takes to load and unload the packages
-> More number of workers will result in lesser loading/ Unloading time
-> Less number of workers will take more loading/ Unloading time
+> More number of workers will result in lesser loading/ Unloading time >
+Less number of workers will take more loading/ Unloading time
 
 ### Hypothesis 2:-
 When the Extreme weather count for a specefic region increases, the difference in the success rates for package delivery increases for the proposed model 
