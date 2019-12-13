@@ -1,6 +1,7 @@
 # Monte Carlo Simulation for a Package/ courier delivery service system
 ### Idea behind our project proposal :-
 Over the years it has been seen that the most package delivery companies cancel or suspend their service due to extreme weather. The reason for them to do so is because of the employees life being at great risk. We are prosposing a model to mitigate this risk. 
+![Article](download3.png)
 Our Proposals :-
 We have two proposals to solve this problem
 ### Project Proposal 1 :-
