@@ -144,8 +144,13 @@ def load_unloading_time_calculation(Number_of_1_Kg_Parcels, Number_of_5_Kg_Parce
 
 def Hypothesis_1(cargo_carrier_dimensions_cm, Dimensions_of_all_size_boxes_cm):
     """
+    There is a relation between the number of workers and the time it takes to load and unload the packages
+    > More number of workers will result in lesser loading/ Unloading time , Less number of workers will take more loading/ Unloading time
+    :param cargo_carrier_dimensions_cm: dimensions of the cargo in centimeter
+    :param Dimensions_of_all_size_boxes_cm: dictionary containing dimentions of 1,5,10,20kg boxes in centimeters
 
-    :return:
+    :returns Hypothesis_1: Dataframe of Hypothesis one (loading/unloading time and the time taken for the workers)
+
     >>> Result=Hypothesis_1([100,100,100],{"1kg":[1,1,1],"5kg":[1,1,1],"10kg":[1,1,1],"20kg":[98,99,99]})
     >>> len(Result.index)
     100
@@ -300,10 +305,18 @@ def after(day_count, cargo_carrier_dimensions_cm, Dimensions_of_all_size_boxes_c
 
 def Hypothesis_2(cargo_carrier_dimensions_cm,Dimensions_of_all_size_boxes_cm):
     """
+    > When the Extreme weather count for a specefic region increases,
+    the difference in the success rates for package delivery increases for the proposed model
 
-    :param cargo_carrier_dimensions_cm:
-    :param Dimensions_of_all_size_boxes_cm:
-    :return:
+    :param cargo_carrier_dimensions_cm: dimensions of the cargo in centimeter
+    :param Dimensions_of_all_size_boxes_cm: dictionary containing dimentions of 1,5,10,20kg boxes in centimeters
+
+    :returns:
+    model_database: Dataframe of proposed model
+    sucess_rate_without: Dataframe of Success rate of standard model
+    sucess_rate_with: Dataframe of Success Rate of proposed model
+    Diff_of_before_after_sucess_rates: Dataframe of the difference of the standard and the proposed model
+
     >>> Model_Database,sucess_rate_without,sucess_rate_with,Diff_of_before_after_sucess_rates=Hypothesis_2([150,150,150],{"1kg":[5,5,5],"5kg":[15,15,15],"10kg":[25,25,25],"20kg":[35,35,35]})
     >>> len(Model_Database)
     24
