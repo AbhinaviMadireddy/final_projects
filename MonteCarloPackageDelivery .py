@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 import math
-import requests
 import random
 import sys
 import matplotlib.pyplot as plt
