@@ -1,0 +1,116 @@
+C:\Users\madir\Anaconda3\python.exe "C:/Users/madir/Downloads/final_projects/MonteCarloPackageDelivery .py"
+Monte Carlo Simulation for a Package/ courier delivery service system :-
+Over the years it has been seen that the most package delivery companies cancel or suspend their service due to extreme weather. The reason for them to do so is because of the employees life being at great risk. In order to mitigate this human risk, the two models proposed by us are 1. Self-Driving Cars system 2. Drone Delivery System
+Our simulation outputs a total of 5 graphs
+Graph 1: Hypothesis 1
+ Graph 2: Success Rate for Standard Model
+ Graph 3: Success Rate for Proposed Model
+ Graph 4: Scatterplot of the Difference in the Success Rates
+ Graph 5: Cost Model of Drone model vs. Self-Driving Cars Model
+Success Rate of the Standard Model :-
+      Before  Number_of_days
+0   1.000000               0
+1   0.990623               5
+2   0.977206              10
+3   0.965467              15
+4   0.956214              20
+5   0.940656              25
+6   0.926594              30
+7   0.916458              35
+8   0.905789              40
+9   0.888246              45
+10  0.879944              50
+11  0.862754              55
+12  0.851314              60
+13  0.839167              65
+14  0.830099              70
+15  0.818251              75
+16  0.803953              80
+17  0.793616              85
+18  0.782527              90
+19  0.767642              95
+20  0.750211             100
+21  0.744904             105
+22  0.730333             110
+23  0.714018             115
+Success Rate of the Proposed Model :-
+       After  Total_cost  Number_of_days
+0   1.000000      0.0000               0
+1   0.997076   3143.6758               5
+2   0.996990   6702.7836              10
+3   0.997717  10799.2134              15
+4   0.997336  14964.6422              20
+5   1.000000  18724.9298              25
+6   0.997495  21515.2358              30
+7   0.994495  24605.9936              35
+8   0.994153  28327.9666              40
+9   0.997300  32484.2798              45
+10  0.991112  35491.1700              50
+11  0.991324  39103.5976              55
+12  0.992160  45054.6742              60
+13  1.000000  49176.2726              65
+14  0.989130  47759.3604              70
+15  0.993963  55468.0146              75
+16  0.994676  59119.8162              80
+17  0.993661  63052.7522              85
+18  0.991417  64264.0970              90
+19  0.997104  70462.8456              95
+20  0.996766  74685.7548             100
+21  0.992830  75443.9282             105
+22  0.994784  82495.9314             110
+23  1.000000  86327.1664             115
+Difference of the Success Rate of standard model vs proposed model :-
+    Difference  Number_of_days
+0     0.000000               0
+1     0.006454               5
+2     0.019783              10
+3     0.032250              15
+4     0.041121              20
+5     0.059344              25
+6     0.070901              30
+7     0.078037              35
+8     0.088364              40
+9     0.109054              45
+10    0.111168              50
+11    0.128570              55
+12    0.140846              60
+13    0.160833              65
+14    0.159031              70
+15    0.175711              75
+16    0.190724              80
+17    0.200045              85
+18    0.208891              90
+19    0.229461              95
+20    0.246555             100
+21    0.247926             105
+22    0.264451             110
+23    0.285982             115
+Cost of our Proposed Model :-
+      Before  Number_of_days     After  Total_cost
+0   1.000000               0  1.000000      0.0000
+1   0.990623               5  0.997076   3143.6758
+2   0.977206              10  0.996990   6702.7836
+3   0.965467              15  0.997717  10799.2134
+4   0.956214              20  0.997336  14964.6422
+5   0.940656              25  1.000000  18724.9298
+6   0.926594              30  0.997495  21515.2358
+7   0.916458              35  0.994495  24605.9936
+8   0.905789              40  0.994153  28327.9666
+9   0.888246              45  0.997300  32484.2798
+10  0.879944              50  0.991112  35491.1700
+11  0.862754              55  0.991324  39103.5976
+12  0.851314              60  0.992160  45054.6742
+13  0.839167              65  1.000000  49176.2726
+14  0.830099              70  0.989130  47759.3604
+15  0.818251              75  0.993963  55468.0146
+16  0.803953              80  0.994676  59119.8162
+17  0.793616              85  0.993661  63052.7522
+18  0.782527              90  0.991417  64264.0970
+19  0.767642              95  0.997104  70462.8456
+20  0.750211             100  0.996766  74685.7548
+21  0.744904             105  0.992830  75443.9282
+22  0.730333             110  0.994784  82495.9314
+23  0.714018             115  1.000000  86327.1664
+Please View the graphs to get a clear visual of our generated model.
+
+Process finished with exit code 0
