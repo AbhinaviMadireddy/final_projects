@@ -388,6 +388,10 @@ def cost_of_drone(model_database):
 
 
 if __name__ == '__main__':
+    print("Monte Carlo Simulation for a Package/ courier delivery service system :-")
+    print("Over the years it has been seen that the most package delivery companies cancel or suspend their service due to extreme weather. The reason for them to do so is because of the employees life being at great risk. In order to mitigate this human risk, the two models proposed by us are 1. Self-Driving Cars system 2. Drone Delivery System")
+    print("Our simulation outputs a total of 5 graphs")
+    print("Graph 1: Hypothesis 1 \n Graph 2: Success Rate for Standard Model \n Graph 3: Success Rate for Proposed Model \n Graph 4: Scatterplot of the Difference in the Success Rates \n Graph 5: Cost Model of Drone model vs. Self-Driving Cars Model")
     # dimesions of 1kg, 5kg, 10kg, 20 kg box in centimeters
     Dimensions_of_all_size_boxes_cm = {"1kg": [33.7, 18.2, 10], "5kg": [33.7, 33.2, 18], "10kg": [40.16, 32.86, 25.88],
                                        "20kg": [48.1, 40.4, 38.9]}
@@ -408,7 +412,15 @@ if __name__ == '__main__':
     # Model_Database, sucess_rate_without, sucess_rate_with, Diff_of_before_after_sucess_rates= Hypothesis_2()
     # ### Success rate for standard model
     Model_Database,sucess_rate_without, sucess_rate_with, Diff_of_before_after_sucess_rates= Hypothesis_2(cargo_carrier_dimensions_cm, Dimensions_of_all_size_boxes_cm)
-
+    print("Success Rate of the Standard Model :-")
+    print(sucess_rate_without)
+    print("Success Rate of the Proposed Model :-")
+    print(sucess_rate_with)
+    print("Difference of the Success Rate of standard model vs proposed model :-")
+    print(Diff_of_before_after_sucess_rates)
+    print("Cost of our Proposed Model :-")
+    print(Model_Database)
+    print("Please View the graphs to get a clear visual of our generated model.")
     fig1 = go.Figure()
     fig1.add_trace(go.Scatter(x=sucess_rate_without['Before'] * 100, y=sucess_rate_without['Number_of_days'],
                               mode='lines+markers'))
